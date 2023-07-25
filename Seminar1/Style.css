@@ -1,0 +1,47 @@
+/* Браузер смотри, возможно будет такой то шрифт, возьми его */
+@font-face {
+    font-family: "teddy-bear";
+    src: url(Fonts/teddy-bear.ttf);
+}body {
+    background-color: rgb(248, 228, 235);
+}
+
+h1 {
+    color: hsl(0, 68%, 28%);
+    /* Используем шрифт, sans-serif - на случай если 
+    указанный шрифт не сработает, возьми стандартный без отсечик*/
+    font-family: "teddy-bear", sans-serif;
+}
+
+h2 {
+    color: rgb(177, 45, 234);
+}
+
+a {
+    color: rgb(0, 255, 38);
+}
+
+/* Меняем цвет ссылки  */
+a:hover{
+    color: rgb(255, 8, 0);
+}
+img {
+    width: 500px;
+    /* solid - сплошная рамка, border - сама рамка */
+    border: 3px dotted rgb(0, 0, 0);
+    /* margin - отступ картинки */
+    margin: 10px 0px 0px 60px;
+}
+
+.image1 {
+    width: 1000px;
+    height: 800px;
+    border: 20px solid red;
+   
+}
+
+/* Название класса пишется через точку */
+.bigText {
+    /* rem - зависит от стандартного шрифта 14px */
+    font-size: 1.5rem;
+}
