@@ -82,8 +82,8 @@
 function getMaxEvenElement(arr) {
     let maxEvenElement = arr[0];
     for (let index = 2; index < arr.length; index += 2) {
-        if(arr[i] > maxEvenElement) {
-            maxEvenElement = arr[i];
+        if(arr[index] > maxEvenElement) {
+            maxEvenElement = arr[index];
         }
     }
     return maxEvenElement;
@@ -92,16 +92,3 @@ function getMaxEvenElement(arr) {
  
 console.log(getMaxEvenElement([5, 7, -1, 12, 3, 0])); // 5
 console.log(getMaxEvenElement([4, -12, 29, 6, 31, 92, -50])); // 31
-
-// function getMaxEvenElement(arr) {
-//     let maxEvenElement = arr[0];
-//     for (let i = 2; i < arr.length; i += 2) {
-//         if (arr[i] > maxEvenElement) {
-//             maxEvenElement = arr[i];
-//         }
-//     }
-//     return maxEvenElement;
-// }
-// console.log(getMaxEvenElement([5, 7, 25, 25, 3, 0])); // 5
-// console.log(getMaxEvenElement([1069, -1059, 29, 1069, 31, 100, -50])); // 31
-
